@@ -1,0 +1,62 @@
+/* Home Content */
+.home {
+  margin-top: 30px;
+  max-width: 1200px;
+  height: 500px;
+  color: #fff;
+}
+
+.home__info {
+  position: absolute;
+  margin: 210px 46px 57px 519px;
+}
+
+.home__title {
+  font-family: Sen;
+  font-size: 66px;
+
+  
+  font-weight: 800;
+  max-width: 635px;
+}
+
+.home__text {
+  margin-left: 43px;
+  padding-top: 26px;
+  max-width: 580px;
+
+  font-size: 26px;
+  font-family: Sen;
+  text-align: right;
+}
+
+/* Discaunt section */
+.discounts-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 85px;
+  width: 1188px;
+  margin: 85px auto 60px;
+}
+
+.discounts-item {
+  display: flex;
+  align-items: center;
+}
+
+.discounts-item img {
+  margin-right: 7px;
+}
+
+.discounts-text {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.discounts-text h2 {
+  font-size: 25px;
+  font-family: "Sen", sans-serif;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
