@@ -12,6 +12,14 @@ const categories = [
   "Boat",
 ];
 
+const brands = [
+  "RTRMAX",
+  "DeWalt",
+  "Husqvarna",
+  "Raider",
+  "AL-KO",
+];
+
 const links = [
   {
     title: "Home",
@@ -22,11 +30,12 @@ const links = [
   {
     title: "Brands",
     isSubmenu: true,
+    submenuContent: <Submenu categori={brands} />,
   },
   {
     title: "Categories",
     isSubmenu: true,
-    submenuContent: <Submenu categories={categories} />,
+    submenuContent: <Submenu categori={categories} />,
   },
   {
     title: "Blog",
