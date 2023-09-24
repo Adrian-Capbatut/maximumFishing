@@ -1,7 +1,7 @@
-const Submenu = ({ categories }) => {
+const Submenu = ({ categori }) => {
   return (
     <ul className="submenu">
-      {categories.map((category, index) => (
+      {categori.map((category, index) => (
         <li key={index}>
           <a href="#">{category}</a>
         </li>
