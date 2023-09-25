@@ -1,6 +1,6 @@
 import { home, license } from "./assets";
 import "./home.css";
-import DiscountsSection from "./data";
+import {DiscountsSection, NewSection}  from "./data";
 
 const Home = () => {
   return (
@@ -20,7 +20,7 @@ const Home = () => {
       <DiscountsSection />
 
       <section className="license">
-        <h2 className="license__title">License</h2>
+        <h2 className="license__title title__section">License</h2>
 
         <div className="license__content">
           <div className="license__content-left">
@@ -67,6 +67,9 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      <NewSection />
+
     </div>
   );
 };

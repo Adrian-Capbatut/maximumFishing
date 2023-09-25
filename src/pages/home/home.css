@@ -1,9 +1,50 @@
+/* General */
+.title__section {
+  color: #067a79;
+  font-family: "Sen", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  position: relative;
+  text-align: center;
+}
+
+.title__section::after {
+  content: "";
+  height: 3px;
+  width: 449px;
+
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  background: linear-gradient(
+    270deg,
+    #067a79 0%,
+    #9eefd6 50.8%,
+    rgba(73, 141, 255, 0) 100%
+  );
+}
+
+.title__section::before {
+  content: "";
+  height: 3px;
+  width: 449px;
+
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  background: linear-gradient(
+    90deg,
+    #067a79 0%,
+    #9eefd6 48.75%,
+    rgba(73, 141, 255, 0) 100%
+  );
+}
+
 /* Home Content */
 .home {
   margin-top: 30px;
   max-width: 1200px;
   height: 500px;
-  color: #fff;
 }
 
 .home__info {
@@ -16,12 +57,14 @@
   font-size: 66px;
   font-weight: 800;
   max-width: 635px;
+  color: #fff;
 }
 
 .home__text {
   margin-left: 43px;
   padding-top: 26px;
   max-width: 580px;
+  color: #fff;
 
   font-size: 26px;
   font-family: Sen;
@@ -59,49 +102,8 @@
 }
 
 /* Stiluri pentru sectiunea License */
-.license {
+.license__content-left{
   text-align: center;
-  margin: 0 auto;
-}
-
-.license__title {
-  color: #067a79;
-  font-family: "Sen", sans-serif;
-  font-size: 60px;
-  font-weight: 700;
-  position: relative;
-}
-
-.license__title::after {
-  content: "";
-  height: 3px;
-  width: 449px;
-
-  position: absolute;
-  top: 50%;
-  left: 0px;
-  background: linear-gradient(
-    270deg,
-    #067a79 0%,
-    #9eefd6 50.8%,
-    rgba(73, 141, 255, 0) 100%
-  );
-}
-
-.license__title::before {
-  content: "";
-  height: 3px;
-  width: 449px;
-
-  position: absolute;
-  top: 50%;
-  right: 0px;
-  background: linear-gradient(
-    90deg,
-    #067a79 0%,
-    #9eefd6 48.75%,
-    rgba(73, 141, 255, 0) 100%
-  );
 }
 
 .license__img {
@@ -111,7 +113,7 @@
 .license__content {
   padding-top: 30px;
   display: flex;
-  padding-bottom: 50px;
+  padding-bottom: 25px;
 }
 
 .license__content-left {
@@ -119,7 +121,7 @@
 }
 
 .license__button {
-  margin-top: 45px;
+  margin-top: 20px;
   width: 168px;
   height: 41px;
   border-radius: 50px;
@@ -196,4 +198,31 @@
   text-decoration-line: underline;
 }
 
+/* Section NEW */
+.new-section__blocks {
+  display: flex;
+  justify-content: space-between;
+}
 
+.new-section__block {
+  text-align: center;
+}
+
+.new-section__image {
+  margin-top: 25px;
+  width: 100%;
+  height: 300px;
+}
+
+.new-section__text {
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 18px;
+}
+
+.new-section__price {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
