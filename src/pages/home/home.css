@@ -14,8 +14,6 @@
 .home__title {
   font-family: Sen;
   font-size: 66px;
-
-  
   font-weight: 800;
   max-width: 635px;
 }
@@ -35,7 +33,7 @@
   display: flex;
   justify-content: space-between;
   margin-top: 85px;
-  width: 1188px;
+  max-width: 1188px;
   margin: 85px auto 60px;
 }
 
@@ -49,7 +47,6 @@
 }
 
 .discounts-text {
-  font-family: "Inter", sans-serif;
   font-size: 15px;
   font-weight: 400;
 }
@@ -60,3 +57,143 @@
   font-weight: 700;
   margin-bottom: 12px;
 }
+
+/* Stiluri pentru sectiunea License */
+.license {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.license__title {
+  color: #067a79;
+  font-family: "Sen", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  position: relative;
+}
+
+.license__title::after {
+  content: "";
+  height: 3px;
+  width: 449px;
+
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  background: linear-gradient(
+    270deg,
+    #067a79 0%,
+    #9eefd6 50.8%,
+    rgba(73, 141, 255, 0) 100%
+  );
+}
+
+.license__title::before {
+  content: "";
+  height: 3px;
+  width: 449px;
+
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  background: linear-gradient(
+    90deg,
+    #067a79 0%,
+    #9eefd6 48.75%,
+    rgba(73, 141, 255, 0) 100%
+  );
+}
+
+.license__img {
+  max-width: 624px;
+}
+
+.license__content {
+  padding-top: 30px;
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.license__content-left {
+  margin-right: 48px;
+}
+
+.license__button {
+  margin-top: 45px;
+  width: 168px;
+  height: 41px;
+  border-radius: 50px;
+  background: #f59818;
+  position: relative;
+}
+
+.license__button::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  background: #fff;
+  position: absolute;
+  top: 8px;
+  left: 0;
+  margin-left: 135px;
+}
+
+.license__button::after {
+  content: ">";
+  color: #f59818;
+  position: absolute;
+  font-family: Sen;
+  font-size: 16px;
+  font-weight: 700;
+  top: 10px;
+  left: 9px;
+  margin-left: 135px;
+}
+
+.license__button a {
+  padding-right: 15px;
+  color: #fff;
+  font-family: Sen;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+.license__content-right {
+  text-align: left;
+}
+
+.license__subtitle {
+  color: #000;
+  font-family: Sen;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.license__text {
+  padding-top: 25px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.license__text a {
+  color: #000;
+  text-decoration-line: underline;
+}
+
+.license__text-first {
+  padding-bottom: 40px;
+}
+
+.license-term {
+  color: #010455;
+  font-family: Sen;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+
