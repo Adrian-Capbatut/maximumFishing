@@ -1,12 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&family=Sen:wght@400;700;800&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   list-style: none;
   text-decoration: none;
   border: none;
@@ -14,11 +13,28 @@
 }
 
 body {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .container {
   max-width: 1220px;
   margin: 0 auto;
   padding: 0 10px;
+}
+
+.header,
+.footer{
+  background-color: #067a79; 
+}
+
+.bg__image {
+  opacity: 0.6;
+  position: absolute;
+  mix-blend-mode: multiply;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }

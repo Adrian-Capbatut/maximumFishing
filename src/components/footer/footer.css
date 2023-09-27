@@ -1,6 +1,10 @@
 .footer {
-  background-color: #067a79;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
+
 .footer__content {
   display: grid;
   flex-direction: column;
@@ -41,7 +45,6 @@
   text-decoration: underline;
 }
 
-
 .footer__social,
 .terms-and-policies {
   display: flex;
@@ -61,6 +64,6 @@
   text-decoration: none;
 }
 
-.terms-link img{
+.terms-link img {
   vertical-align: middle;
 }

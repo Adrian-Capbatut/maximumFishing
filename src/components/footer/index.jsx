@@ -1,9 +1,11 @@
 import "./footer.css";
+import { bgFooter } from "./assets";
 import { footerData, socialIcons, termsLinks } from "./data";
 
 const Footer = () => {
   return (
     <div className="footer">
+      <img className="bg__image" src={bgFooter} alt="Header" /> 
       <div className="container">
         <div className="footer__content">
           
