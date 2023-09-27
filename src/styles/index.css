@@ -9,6 +9,8 @@
   font-family: 'Inter', sans-serif;
   list-style: none;
   text-decoration: none;
+  border: none;
+  color: #000;
 }
 
 body {
