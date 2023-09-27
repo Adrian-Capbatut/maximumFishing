@@ -75,7 +75,7 @@ const DiscountsSection = () => {
 const NewSection = () => {
   return (
     <section className="new-section">
-      <h2 className="new-section__title title__section">NEW</h2>
+      <h2 className="new-section__title title__section">New</h2>
       <div className="new-section__blocks">
         {newData.map((item, index) => (
           <NewSectionItem
